@@ -10,5 +10,5 @@ void setup()
 
 void loop()
 {
-	multi_func_loop();
+    multi_func_loop();
 }
