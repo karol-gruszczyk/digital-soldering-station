@@ -1,8 +1,8 @@
 #ifndef SETTINGS_H_
 #define SETTINGS_H_
 
-#define MAX_TEMPERATURE 480
-#define MIN_TEMPERATURE 100
+#define MAX_IRON_TEMPERATURE 480
+#define MIN_IRON_TEMPERATURE 100
 #define MAX_HOT_AIR_TEMPERATURE 480
 #define MIN_HOT_AIR_TEMPERATURE 100
 #define MAX_HOT_AIR_SPEED 100
@@ -10,7 +10,7 @@
 
 struct settings_t
 {
-    uint16_t target_temperature;
+    uint16_t iron_target_temperature;
     uint16_t hot_air_target_temperature;
     uint16_t hot_air_speed;
 } settings;
