@@ -1,5 +1,5 @@
 #include "settings.h"
-#include "heater.h"
+#include "controller.h"
 #include <LiquidCrystal.h>
 
 #define MULTI_FUNC_ENCODER_PIN_1 2
