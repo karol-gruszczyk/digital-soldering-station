@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -61,6 +61,10 @@
 <wire x1="45.39" y1="0" x2="45.39" y2="66.03" width="0" layer="20"/>
 <wire x1="45.39" y1="66.03" x2="0" y2="66.03" width="0" layer="20"/>
 <wire x1="0" y1="66.03" x2="0" y2="0" width="0" layer="20"/>
+<hole x="2.54" y="63.5" drill="2"/>
+<hole x="43.18" y="63.5" drill="2"/>
+<hole x="43.18" y="2.54" drill="2"/>
+<hole x="2.54" y="2.54" drill="2"/>
 </plain>
 <libraries>
 <library name="rectifier">
